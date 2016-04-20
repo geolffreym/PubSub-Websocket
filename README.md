@@ -16,7 +16,7 @@ Run the server
         //Channels to suscribe
         
         var _socket = new WebSocket(
-            'ws://127.0.0.1:9000?token=' + jwt + '&channels=' + JSON.stringify(channels)
+            'ws://127.0.0.1:9500?token=' + jwt + '&channels=' + JSON.stringify(channels)
         );
 
         _socket.addEventListener('open', function () {
