@@ -23,13 +23,14 @@
 # THE SOFTWARE.
 #
 ###############################################################################
-from jwt.jwt import JWT
-from jwt.jwk import JWKSet
-from mixin.jwt import JWTSetting
 from datetime import datetime
-
 import json
 import time
+
+from jwt.jwt import JWT
+from jwt.jwk import JWKSet
+
+from jwt import JWTSetting
 
 
 class JWTHandler(object):

@@ -32,7 +32,7 @@ import redis
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../'))
 
-from mixin.jwt.JWT import JWTHandler as jwt
+from jwt.JWT import JWTHandler as jwt
 from autobahn.websocket.types import ConnectionDeny
 from autobahn.twisted.websocket import WebSocketServerProtocol, \
     WebSocketServerFactory, listenWS
